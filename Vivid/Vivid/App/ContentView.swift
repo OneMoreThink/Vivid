@@ -18,6 +18,10 @@ struct ContentView: View {
             Button("Logging") {
                 Analytics.logEvent("timeline", parameters: nil)
             }
+            
+            Spacer()
+            
+            BannerContentView()
         }
         .padding()
     }
