@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF72C2FD2E56C49F00C1F270 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = AF72C2FC2E56C49F00C1F270 /* FirebaseCrashlytics */; };
+		AFC5B2622E793A9D004F23C6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AFC5B2612E793A9D004F23C6 /* FirebaseAnalytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC5B2622E793A9D004F23C6 /* FirebaseAnalytics in Frameworks */,
 				AF72C2FD2E56C49F00C1F270 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				AF72C2ED2E56C0A600C1F270 /* Vivid */,
+				AFC5B2602E793A9D004F23C6 /* Frameworks */,
 				AF72C2EC2E56C0A600C1F270 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +51,13 @@
 				AF72C2EB2E56C0A600C1F270 /* Vivid.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC5B2602E793A9D004F23C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +82,7 @@
 			name = Vivid;
 			packageProductDependencies = (
 				AF72C2FC2E56C49F00C1F270 /* FirebaseCrashlytics */,
+				AFC5B2612E793A9D004F23C6 /* FirebaseAnalytics */,
 			);
 			productName = Vivid;
 			productReference = AF72C2EB2E56C0A600C1F270 /* Vivid.app */;
@@ -391,6 +402,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AF72C2FB2E56C49F00C1F270 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCrashlytics;
+		};
+		AFC5B2612E793A9D004F23C6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF72C2FB2E56C49F00C1F270 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
